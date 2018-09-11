@@ -2,7 +2,7 @@ package metrics
 
 import "context"
 
-const CtxScopeKey = "ipfs.metrics.scope"
+const CtxScopeKey = "dms3fs.metrics.scope"
 
 func CtxGetScope(ctx context.Context) string {
 	s := ctx.Value(CtxScopeKey)
